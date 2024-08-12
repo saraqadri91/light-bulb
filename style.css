@@ -1,0 +1,114 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bg-black{background-color: black;}
+.button{display: flex;
+gap: 20px;}
+.both{ padding: 10px 40px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;}
+    .both:hover {
+        background: #fad02e;
+        box-shadow: 0 0 5px #ffeb3b, 0 0 25px #ffeb3b, 0 0 50px #ffeb3b, 0 0 200px #ffeb3b;
+    }
+    .bg-change{background-image: url(image/yellow-back.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+
+}
+.styling{
+    height: 560px;
+    width: 650px;
+    margin-right: 30px;
+    }
+    
+
+    @media screen and (max-width: 1024px) {
+        .styling {
+            height: 400px;
+            width: 400px;
+            margin-right: 17px;
+        } 
+    }
+    
+    @media screen and (max-width: 530px) {
+        .styling {
+            margin-right: 10px;
+        }
+    }
+    
+    @media screen and (max-width: 510px) {
+        .styling {
+            margin-right: 7px;
+        }
+    }
+    
+    @media screen and (max-width: 500px) {
+        .styling {
+            margin-right: 0px;
+        }
+    }
+    
+    @media screen and (max-width: 375px) {
+        .styling {
+            margin-right: 10px;
+        }
+        .bg-change {
+            background-position: top;
+        }
+    }
+    
+    @media screen and (min-width: 463px) and (max-width: 469px) {
+        .styling {
+            margin-left: 31px;
+        }
+    
+    }
+    @media screen and (min-width: 490px) and (max-width: 493px) {
+        .styling {
+            margin-left: 1px;
+        }
+    
+    }
+    @media screen and (min-width: 475px) and (max-width: 489px) {
+        .styling {
+            margin-left: 30px;
+        }
+    
+    }
+    @media screen and (min-width: 470px) and (max-width: 474px) {
+        .styling {
+            margin-left: 20px;
+        }
+    
+    }
+    @media screen and (min-width: 455px) and (max-width: 462px) {
+        .styling {
+            margin-left: 40px;
+        }
+    
+    }
+    @media screen and (min-width: 440px) and (max-width: 454px) {
+        .styling {
+            margin-left: 60px;
+        }
+    
+    }
+    @media screen and (min-width: 376px) and (max-width: 439px) {
+        .styling {
+            
+        }
+     .bg-change{
+        background-image: url(image/yellow-back.jpg);
+        background-position: center;
+     }
+    }
+    
